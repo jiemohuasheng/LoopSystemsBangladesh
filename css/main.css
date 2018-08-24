@@ -978,11 +978,13 @@ li{
   background-color:white; 
   padding-bottom: 15px; 
   margin: auto auto;
+  border-radius: 3%;
 }
 
 @media (min-width: 768px){
   .form-horizontal{
-    background-color:white; 
+    //background-color:white; 
+    background:url(../img/form_bg.jpg) repeat;
     padding-bottom: 15px; 
     margin: auto 24%;
   }
