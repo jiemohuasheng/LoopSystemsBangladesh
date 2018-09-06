@@ -74,6 +74,15 @@
                         <form class="col-sm-6 form-horizontal" role="form">
                             <!-- start -->
                             <div class="form-group">
+                                <div class="input-group">
+                                    <div id="radioBtn" class="btn-group">
+                                        <a class="btn btn-primary btn-sm active" data-toggle="signup" data-title="Y">Individual</a>
+                                        <a class="btn btn-primary btn-sm notActive" data-toggle="signup" data-title="N">Business</a>
+                                    </div>
+                                    <input type="hidden" name="signup" id="signup">
+                                </div>
+                            </div>
+                            <div class="form-group">
                                 <label for="inputName" >Name</label>
                                 <input type="text" class="form-control" id="inputName" placeholder="name *" required="required">
                             </div>
