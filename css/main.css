@@ -1021,3 +1021,7 @@ li{
     text-align: center;
     line-height: 300%;
   }
+   #radioBtn .notActive{
+    color: #3276b1;
+    background-color: #fff;
+  }
